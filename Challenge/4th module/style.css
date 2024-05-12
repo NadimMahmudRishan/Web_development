@@ -1,0 +1,14 @@
+label{
+    display: block;
+    margin: 10px;
+}
+.boxs{
+    width: 25vw;
+}
+.button
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}

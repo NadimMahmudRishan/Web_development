@@ -1,0 +1,8 @@
+git init
+
+
+Update git :
+
+git add fileName 
+git commit -m "note"
+git push

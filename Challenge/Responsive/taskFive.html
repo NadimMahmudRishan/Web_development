@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Five</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100vw;
+            height: 100vh;
+            gap: 2vw;
+            grid-template-areas:  "image1 texts1"
+                       "texts2 image2"
+            ;
+        }
+
+        .container>img {
+            width: 50%;
+        }
+
+        .part1,
+        .part2 {
+            text-align: justify;
+        }
+        .container:first-child{
+            grid-area: image1;
+        }
+        .container:last-child{
+            grid-area: image2;
+            align-items: right;
+        }
+        .part1{
+            grid-area: texts1;
+        }
+        .part2{
+            grid-area: texts2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="image/pic5.jpeg" alt="">
+        <div class="part1">
+            <h2>The Part : 1</h2>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?</P>
+        </div>
+        <div class="part2">
+            <h2>The Part : 2</h2>
+            <P>Tempora vero dolore ipsa beatae consequuntur dolorum iste exercitationem quia et ad voluptatum quibusdam
+                soluta neque fugiat iure repellendus, perspiciatis nesciunt libero voluptate minus ullam sapiente eos
+                illum impedit. Sed, modi. Ipsum, cupiditate fugit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perferendis sint recusandae deleniti
+                quis sit voluptatem numquam quod quam iusto repellendus consectetur enim mollitia blanditiis, cumque
+                vitae cum omnis aut doloremque repellat quos est?</P>
+        </div>
+        <img src="image/pic4.jpg" alt="">
+    </div>
+</body>
+
+</html>

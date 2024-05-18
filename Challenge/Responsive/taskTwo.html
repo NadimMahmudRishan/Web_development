@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskTwo</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 2vw;
+            /* background-color: aqua; */
+            width: 96vw;
+            height: 48vw;
+            gap: 2vw;
+        }
+
+        .sub-box {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 2vw;
+
+
+        }
+        .subsub-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2vw;
+
+        }
+        .part1 {
+            background-color: antiquewhite;
+            width: 100%;
+
+        }
+
+        .part2 {
+            width: 100%;
+            background-color: rgb(147, 147, 255);
+        }
+
+        .part3 {
+            width: 100%;
+            background-color: rgb(253, 153, 153);
+        }
+
+        .part4 {
+            width: 100%;
+            background-color: rgb(176, 243, 130);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="part1"></div>
+        <div class="sub-box">
+            <div class="part2"></div>
+            <div class="subsub-box">
+                <div class="part3"></div>
+                <div class="part4"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

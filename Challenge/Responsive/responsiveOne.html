@@ -13,8 +13,8 @@
             display: grid;
             grid-template-columns: repeat(3 , 1fr);
             justify-content: space-between;
-            gap: 1vw;
-            padding: 1vw;
+            gap: 3vw;
+            padding: 3vw;
         }
         .picture img{
             width: 100%;
@@ -22,6 +22,7 @@
         .picture{
             border: 2px solid blue;
             padding: 5px;
+            box-shadow: 3vw 3vh 2vw rgba(0, 0, 0, 0.397);
         }
         .picture h2{
             text-align: center;
@@ -30,6 +31,12 @@
         .picture p {
             font-size: 1em;
         }
+
+        @media screen and (max-width: 575px) {
+            main{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
     </style>
 </head>
 <body>

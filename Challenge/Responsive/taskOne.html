@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taskOne</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .mainpart {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 5vw;
+            margin: 5vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            height: 93vh;
+        }
+
+        .part1 {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(92, 92, 92, 0.664);
+        }
+
+        .part2 {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(201, 206, 137, 0.664);
+        }
+
+        @media screen and (max-width: 575PX) {
+            .mainpart {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 2fr;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="mainpart">
+            <div class="part1">nav bar</div>
+            <div class="part2">body content</div>
+        </div>
+    </main>
+</body>
+
+</html>
